@@ -11,7 +11,7 @@ $(function() {
             var name = $("input#name").val();
             var email = $("input#email").val();
             var phone = $("input#phone").val();
-            var message = $("textarea#message").val();
+            var request = $("textarea#request").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(' ') >= 0) {
@@ -24,7 +24,7 @@ $(function() {
                     name: name,
                     phone: phone,
                     email: email,
-                    message: message
+                    request: request
                 },
                 cache: false,
                 success: function() {
@@ -33,7 +33,7 @@ $(function() {
                     $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
                         .append("</button>");
                     $('#success > .alert-success')
-                        .append("<strong>Your message has been sent. </strong>");
+                        .append("<strong>Your request has been sent. </strong>");
                     $('#success > .alert-success')
                         .append('</div>');
 
