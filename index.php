@@ -1,3 +1,9 @@
+<?php
+// 1) Start Session and Require Connection
+session_start();
+require_once("connection.php");
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +15,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Agency - Start Bootstrap Theme</title>
+    <title>Yara Said</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -81,7 +87,7 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome To Our Studio!</div>
+                <div class="intro-lead-in">Yara's website!</div>
                 <div class="intro-heading">It's Nice To Meet You</div>
                 <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
             </div>
@@ -143,7 +149,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/Yara-1.jpg" class="img-responsive" alt="Yara-2.jpg">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Round Icons</h4>
@@ -157,7 +163,7 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                        <img src="img/portfolio/Yara-2.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Startup Framework</h4>
@@ -396,7 +402,7 @@
             </div>
         </div>
     </aside>
-    
+
     <!-- Contact Section -->
     <section id="contact">
         <div class="container">
@@ -489,7 +495,7 @@
                             <!-- Project Details Go Here -->
                             <h2>Project Name</h2>
                             <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
+                            <img class="img-responsive img-centered" src="img/portfolio/Yara-1.jpg" alt="">
                             <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
                             <p>
                                 <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
@@ -521,7 +527,7 @@
                         <div class="modal-body">
                             <h2>Project Heading</h2>
                             <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
+                            <img class="img-responsive img-centered" src="img/portfolio/Yara-2.jpg" alt="">
                             <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
                             <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
