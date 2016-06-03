@@ -235,8 +235,8 @@ require_once("connection.php");
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">My Timeline</h2>
+                    <h3 class="section-subheading text-muted">From then 'till now..</h3>
                 </div>
             </div>
             <div class="row">
@@ -248,11 +248,11 @@ require_once("connection.php");
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
+                                    <h4>May 1991</h4>
+                                    <h4 class="subheading">My Humble Beginning</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">Born in the city of Damascus, to an open-minded but traditional Syrrian family. Since Generations my family have been artisinal creators.</p>
                                 </div>
                             </div>
                         </li>
@@ -262,11 +262,11 @@ require_once("connection.php");
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
+                                    <h4>June 2000</h4>
+                                    <h4 class="subheading">My First Creation</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">This was the day my dad brought back a painting set, and this is also the day that I for the first time saw the potential of a canvas and a bit of paint. This was the day I fell in love.</p>
                                 </div>
                             </div>
                         </li>
@@ -276,11 +276,11 @@ require_once("connection.php");
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
+                                    <h4>July 2010</h4>
+                                    <h4 class="subheading">Graduation day</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">Graduated from the Art University of Damascus. According to the world I somehow now had a certificate proving that I am actually a qualified artist. F*ck Insitutionalized education.</p>
                                 </div>
                             </div>
                         </li>
@@ -291,10 +291,10 @@ require_once("connection.php");
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
                                     <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
+                                    <h4 class="subheading">Moved to the Netherlands</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                                    <p class="text-muted">The situation in Syria caused me to make my way to Europe, and start a new life here.</p>
                                 </div>
                             </div>
                         </li>
@@ -339,7 +339,7 @@ require_once("connection.php");
             </div>
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                    <p class="large text-muted">Art has made me who I am, it is my start and my finish. It is everything to me. Nothing can try to to contain this relationship.</p>
                 </div>
             </div>
         </div>
