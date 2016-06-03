@@ -378,8 +378,8 @@ require_once("connection.php");
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Contact Me</h2>
+                    <h3 class="section-subheading text-muted">Make an art request.</h3>
                 </div>
             </div>
             <div class="row">
@@ -402,14 +402,14 @@ require_once("connection.php");
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <textarea class="form-control" placeholder="Your Request *" id="request" required data-validation-required-message="Please specify your request. Think of possible themes, emotions or scenarios. Your request remains 100% anonymous."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
+                                <button type="submit" class="btn btn-xl">Send Request</button>
                             </div>
                         </div>
                     </form>
@@ -417,6 +417,7 @@ require_once("connection.php");
             </div>
         </div>
     </section>
+
 
     <footer>
         <div class="container">
