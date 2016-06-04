@@ -44,6 +44,7 @@ require("connection.php");
 </style>
 </head>
   <body>
+<section id="portfolio">
 <div class="container">
     <?php
     $query="SELECT name, description, selfie, created_at FROM Selfies ORDER BY created_at DESC";
@@ -63,5 +64,6 @@ require("connection.php");
       }
       ?>
     </div>
+  </section>
   </body>
 </html>
