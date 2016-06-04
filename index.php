@@ -71,6 +71,9 @@ require_once("connection.php");
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#selfies">Send a Selfie</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#about">About Me</a>
                     </li>
                     <li>
