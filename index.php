@@ -36,12 +36,22 @@ require_once("connection.php");
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     <style>
+      #selfie_gif{
+        max-width: 400px;
+        margin: 0 auto;
+      }
 
+      #gifstuff{
+        max-width: 400px;
+        max-height: 600px;
+      }
 
+      #formstuff{
+        max-width: 100px;
+        margin: 0 auto;
+      }
     </style>
-
 </head>
-
 <body id="page-top" class="index">
 
     <!-- Navigation -->
@@ -250,8 +260,10 @@ require_once("connection.php");
                   <input type="text" name="description" class="form-control text-center" placeholder="Your selfie description">
                   <p class="help-block text-danger"></p>
               </div>
-              <input type="file" name="fileToUpload" id="fileToUpload">
-              <input type="submit" value="Upload Selfie" name="selfie_submit" class="btn">
+              <div id="formstuff">
+                <input type="file" name="fileToUpload" id="fileToUpload">
+                <input type="submit" value="Upload Selfie" name="selfie_submit" class="btn">
+            </div>
           </form>
         </div>
         <div id="selfie_errors">
@@ -263,6 +275,9 @@ require_once("connection.php");
           $_SESSION['errors']=array();
           }
           ?>
+      </div>
+      <div id="selfie_gif">
+        <img src="http://i.giphy.com/xTiTneMFOi4QJlVpYI.gif" id="gifstuff">
       </div>
     </section>
 
