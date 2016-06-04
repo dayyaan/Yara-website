@@ -29,13 +29,16 @@ require_once("connection.php");
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+
+
+    </style>
 
 </head>
 
@@ -52,7 +55,7 @@ require_once("connection.php");
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Yara</a>
+                <a class="navbar-brand page-scroll" href="#page-top">Home</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -68,13 +71,13 @@ require_once("connection.php");
                         <a class="page-scroll" href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">About Me</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a class="page-scroll" href="#team">Social</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll" href="#contact">Art Request</a>
                     </li>
                 </ul>
             </div>
@@ -88,7 +91,7 @@ require_once("connection.php");
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in"></div>
-                <div class="intro-heading">It's Nice To Meet You</div>
+                <div class="intro-heading">Yara Said</div>
                 <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
             </div>
         </div>
@@ -110,7 +113,7 @@ require_once("connection.php");
                         <i class="fa fa-picture-o fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Art Therapy</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <p class="text-muted">Art can alleviate the traumas of many refugees. It is one of my passions to facilitate this process.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -118,7 +121,7 @@ require_once("connection.php");
                         <i class="fa fa-tint fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Creative projects</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <p class="text-muted">The canvas is out my outlet, everything that I have felt and have seen is translated into my creative projects</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -126,7 +129,7 @@ require_once("connection.php");
                         <i class="fa fa-heart fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">community-art projects</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <p class="text-muted">The community is what I aim to serve. Art creates community. Art is the community</p>
                 </div>
             </div>
         </div>
@@ -235,7 +238,7 @@ require_once("connection.php");
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">My Timeline</h2>
+                    <h2 class="section-heading">My Life in Moments</h2>
                     <h3 class="section-subheading text-muted">From then 'till now..</h3>
                 </div>
             </div>
@@ -298,13 +301,6 @@ require_once("connection.php");
                                 </div>
                             </div>
                         </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
-                            </div>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -344,34 +340,6 @@ require_once("connection.php");
             </div>
         </div>
     </section>
-
-    <!-- Clients Aside -->
-    <aside class="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </aside>
 
     <!-- Contact Section -->
     <section id="contact">
@@ -423,7 +391,7 @@ require_once("connection.php");
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Your Website 2014</span>
+                    <span class="copyright">Copyright &copy; Yara 2016</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
