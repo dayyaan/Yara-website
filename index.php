@@ -241,17 +241,17 @@ require_once("connection.php");
       <div class="container">
         <div class="row">
           <form action="selfie.php" method="post" enctype="multipart/form-data">
-              <h2 class="section-heading">Upload a Selfie and I will make it into Art!</h2>
+              <h2 class="section-heading text-center">Upload a Selfie and I will make it into Art!</h2>
               <div class="form-group">
-                  <input type="text" name="name" class="form-control" placeholder="Please enter your name">
+                  <input type="text" name="name" class="form-control text-center" placeholder="Please enter your name">
                   <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
-                  <input type="text" name="description" class="form-control" placeholder="Your selfie description">
+                  <input type="text" name="description" class="form-control text-center" placeholder="Your selfie description">
                   <p class="help-block text-danger"></p>
               </div>
               <input type="file" name="fileToUpload" id="fileToUpload">
-              <input type="submit" value="Upload Selfie" name="selfie_submit">
+              <input type="submit" value="Upload Selfie" name="selfie_submit" class="btn">
           </form>
         </div>
         <div id="selfie_errors">
