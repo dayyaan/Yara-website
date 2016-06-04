@@ -233,6 +233,36 @@ require_once("connection.php");
         </div>
     </section>
 
+    <!-- Selfie Section -->
+    <section id="selfies">
+      <div class="container">
+        <div class="row">
+          <form action="selfie.php" method="post" enctype="multipart/form-data">
+              <h2 class="section-heading">Upload a Selfie and I will make it into Art!</h2>
+              <div class="form-group">
+                  <input type="text" name="name" class="form-control" placeholder="Please enter your name">
+                  <p class="help-block text-danger"></p>
+              </div>
+              <div class="form-group">
+                  <input type="text" name="description" class="form-control" placeholder="Your selfie description">
+                  <p class="help-block text-danger"></p>
+              </div>
+              <input type="file" name="fileToUpload" id="fileToUpload">
+              <input type="submit" value="Upload Selfie" name="selfie_submit">
+          </form>
+        </div>
+        <div id="selfie_errors">
+          <?php
+          if(isset($_SESSION['errors']))
+          {
+          foreach($_SESSION['errors'] as $error){echo $error;}
+          unset($_SESSION['errors']);
+          $_SESSION['errors']=array();
+          }
+          ?>
+      </div>
+    </section>
+
     <!-- About Section -->
     <section id="about">
         <div class="container">
