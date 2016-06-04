@@ -56,4 +56,18 @@ function escape_this_string($string)
   global $connection;
   return $connection->real_escape_string($string);
 }
+
+function fetch($query)
+{
+	global $connection;
+
+	$result = mysqli_query($connection, $query);
+	$rows = array();
+
+	foreach($result as $row) {
+		$rows[] = $row;
+	}
+
+	return $rows;
+}
 ?>
